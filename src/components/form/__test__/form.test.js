@@ -17,7 +17,7 @@ describe("<Form/>", () => {
     const inputEl = screen.getByTestId("email-input");
     userEvent.type(inputEl, "test@mail.com");
     
-    expect(screen.getByTestId("email-input")).toHaveValue("test@gmail.com");
+    expect(screen.getByTestId("email-input")).toHaveValue("test@mail.com");
     });
 
 })
