@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './form.css'
 import logo from '../../Assets/portfolio_logo_hitesh.png';
 
@@ -6,6 +6,7 @@ import Button from '../button/button';
 
 
 function Form(props) {
+    const [email, setEmail] = useState('');
   return (
     <div className="wrapper fadeInDown">
     <div id="formContent">
@@ -16,8 +17,11 @@ function Form(props) {
         </div>
 
         <form>
-            <input type="text" id="login-username" className="form-control"
-            name="username" placeholder="Enter username"
+            <input type="email" id="login-username" className="form-control"
+            name="username" placeholder="Enter email"
+            data-testid="email-input"
+            value={email}
+            onChange={e => setEmail(e.target.value)}
             autoFocus />
 
             <input id="login-password" type="password"
