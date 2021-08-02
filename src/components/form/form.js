@@ -18,11 +18,11 @@ function Form(props) {
         <form>
             <input type="text" id="login-username" className="form-control"
             name="username" placeholder="Enter username"
-            required autoFocus />
+            autoFocus />
 
-            <input type="text" id="login-password" type="password" className="form-control"
-            name="password" placeholder="Enter password"
-            required />
+            <input type="text" id="login-password" type="password"
+            placeholder="Enter password"
+            />
 
             <Button id="login-button" className="btn btn-success button-style" label="Login"/>
         </form>
