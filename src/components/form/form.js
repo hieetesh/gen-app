@@ -20,7 +20,7 @@ function Form(props) {
             name="username" placeholder="Enter username"
             autoFocus />
 
-            <input type="text" id="login-password" type="password"
+            <input id="login-password" type="password"
             placeholder="Enter password"
             />
 
