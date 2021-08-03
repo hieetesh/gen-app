@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './form.css'
-import logo from '../../Assets/portfolio_logo_hitesh.png';
+//import logo from '../../Assets/portfolio_logo_hitesh.png';
 
 import Button from '../button/button';
 
