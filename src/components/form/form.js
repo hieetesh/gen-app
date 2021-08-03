@@ -10,7 +10,7 @@ function Form(props) {
   return (
     <div className="wrapper fadeInDown">
     <div id="formContent">
-        <h2 className="active"> Log In </h2>
+        <h2 className="active"> Sign In </h2>
 
         {/* <div className="fadeIn first">
         <img src={logo}  id="icon" alt="User Icon" />
