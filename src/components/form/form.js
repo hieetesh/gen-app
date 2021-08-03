@@ -12,9 +12,9 @@ function Form(props) {
     <div id="formContent">
         <h2 className="active"> Log In </h2>
 
-        <div className="fadeIn first">
+        {/* <div className="fadeIn first">
         <img src={logo}  id="icon" alt="User Icon" />
-        </div>
+        </div> */}
 
         <form>
             <input type="email" id="login-username" className="form-control"
