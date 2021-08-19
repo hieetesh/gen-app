@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './form.css'
 //import logo from '../../Assets/portfolio_logo_hitesh.png';
-import TextField from '@material-ui/core/TextField';
+//import TextField from '@material-ui/core/TextField';
 
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -105,15 +105,15 @@ function Form(props) {
         setMessage('Classifier predicts that the bike is not likely to be RECOVERED!');
     }
 
-    const handleOccurenceDateTime = (event) => {
-      console.log("value123", event.target.value);
-      let datetimeValue = new Date(event.target.value);
-      let year = datetimeValue.getFullYear();
-      let month = datetimeValue.getMonth()+1;
-      let date = datetimeValue.getDate();
+    // const handleOccurenceDateTime = (event) => {
+    //   console.log("value123", event.target.value);
+    //   let datetimeValue = new Date(event.target.value);
+    //   let year = datetimeValue.getFullYear();
+    //   let month = datetimeValue.getMonth()+1;
+    //   let date = datetimeValue.getDate();
 
-      console.log("day123", date, month, year);
-    }
+    //   console.log("day123", date, month, year);
+    // }
   return (
     <div className="wrapper fadeInDown">
     <div id="formContent">
