@@ -1,11 +1,11 @@
 import React from 'react';
 import './button.css'
-function Button({label}) {
+function ButtonCustom({label, onClick}) {
   return (
-    <div data-testid="button" className="button-style">
+    <div data-testid="button" className="button-style" onClick={()=>onClick()}>
         {label}
     </div>
   );
 }
 
-export default Button;
+export default ButtonCustom;

@@ -3,9 +3,11 @@
     color:black;
     background-color: #bf5e2e;
     padding: 10px;
-    width: auto;
+    width: 50%;
     height: auto;
     cursor: pointer;
     text-align: center;
+    position: relative;
+    left: 25%;
 }
 

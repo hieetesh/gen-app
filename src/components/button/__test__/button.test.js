@@ -6,9 +6,9 @@ import Button from './../button';
 import {render, cleanup} from "@testing-library/react";
 // import "jest-dom/extend-expect";
 
-afterEach(cleanup);
+// afterEach(cleanup);
 
-it("renders without crashing",()=>{
-    const div = document.createElement("div");
-    ReactDOM.render(<Button/>, div);
-})
+// it("renders without crashing",()=>{
+//     const div = document.createElement("div");
+//     ReactDOM.render(<Button/>, div);
+// })
